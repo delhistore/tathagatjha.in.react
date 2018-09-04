@@ -5,18 +5,16 @@ class NavBar extends React.Component {
 
 	constructor(props) {
 		super(props);
+		this.menuToggle = this.menuToggle.bind(this);
 		this.state = {
 			mobileMenuToggle: false
 		};
-		this.menuToggle = this.menuToggle.bind(this);
 	}
 
 	menuToggle = () => {
-		console.log("fafabar");
-
-		this.setState(prevState => ({ mobileMenuToggle: !prevState.mobileMenuToggle }) );
 
 		console.log(this.state.mobileMenuToggle);
+		this.setState({ mobileMenuToggle: !this.state.mobileMenuToggle });		
 
 		var x = document.getElementById("nav_id");
 	    if (x.className === "navbar") {

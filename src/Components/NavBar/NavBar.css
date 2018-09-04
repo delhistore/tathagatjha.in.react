@@ -47,9 +47,11 @@
     right: 0;
     top: 0;
   }
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other by float:none*/
   .navbar.responsive div {
     float: none;
     display: block;
+    /* transition: display 2s; */
     text-align: left;
   }
 }
