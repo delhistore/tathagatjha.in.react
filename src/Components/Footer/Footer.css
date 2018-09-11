@@ -1,0 +1,23 @@
+.footer {
+  position: relative;
+  top: 0px;
+  width: 100%;
+	overflow: hidden;
+  background-color: #333;
+}
+
+.footer div {
+	display: block;
+  	color: #f2f2f2;
+	text-align: center;
+	padding: 18px 25px 18px 25px;
+	font-size: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}

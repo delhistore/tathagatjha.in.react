@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavBar.css'
+import './NavBar.css';
 
 class NavBar extends React.Component {
 
@@ -24,19 +24,42 @@ class NavBar extends React.Component {
 	    }
 	};
 
+	isActive = (route) => {
+
+		if(this.props.route === route) {
+			return 'active';
+		}
+	};
+
 	render() {
 		return(
 			<header className={this.state.mobileMenuToggle? "navbar responsive":"navbar"} id="nav_id">			
 
-				<div className="left">Logo Here</div>
-				<div className="active left">Home</div>
-				<div className="left">About</div>
-				<div className="left">Apps</div>
-				<div className="left">Contact</div>
+				<div className="left">Logo</div>
+				
+				<div className={`left ${this.isActive('home')} `} 		onClick={() => this.props.routeChange('home')} >
+					homeScreen
+				</div>				
+				<div className={ `left ${this.isActive('mySkills')}`} 	onClick={() => this.props.routeChange('mySkills')} >
+					whatILoveToDo
+				</div>
+				<div className={ `left ${this.isActive('myApps')}`} 	onClick={() => this.props.routeChange('myApps')} >
+					myApps
+				</div>
+				<div className={ `left ${this.isActive('contact')}`} 	onClick={() => this.props.routeChange('contact')} >
+					contactMe
+				</div>
 
-				<div className="right"></div>
-				<div className="right">Register</div>	
-				<div className="right">Login</div>
+				<div className="left"> {this.props.route} </div>
+				<div className="left"> {this.props.scrollPixelsY} </div>
+
+				<div className="right"></div>				
+				<div className={`right ${this.isActive('register')} `} 	onClick={() => this.props.routeChange('register')} >
+					Register
+				</div>	
+				<div className={`right ${this.isActive('login')} `} 	onClick={() => this.props.routeChange('login')} >
+					Login
+				</div>
 
 				<div className="mobileMenu" onClick={this.menuToggle}>
     				<i className="fa fa-bars"></i>

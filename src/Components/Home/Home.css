@@ -1,0 +1,115 @@
+.home {
+	position: relative;	
+	overflow: hidden;
+}
+
+.doorLeft {
+	width: 50%;
+	float:left;
+	height: 200vh;
+	background-image: url('../../assets/images/doorLeft.jpg');
+	background-size: 51% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left;
+}
+
+.doorRight {	
+	width: 50%;
+	float:right;
+	height: 200vh;
+	background-image: url('../../assets/images/doorRight.jpg');
+	background-size: 51% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+}
+
+.namePlate {
+	height:100px;
+	width:200px;
+	position: fixed;
+	top:20%;
+	left: -10%;
+}
+
+.visibleVideo {
+	height:6000px;
+}
+
+.video {
+    position: fixed;
+    right: 0;
+    bottom: -10px;
+    z-index: -1;
+}
+
+.img {
+	height:100px;
+	width:200px;
+	position: fixed;
+}
+
+#img {
+	-webkit-animation-name: swing 5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation: swing 5s infinite;
+    animation-direction: alternate;
+    transform-origin: 50% 0%;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes swing {
+    from {transform: rotate(20deg);}
+    to {transform: rotate(-20deg);}
+}
+
+/* Standard syntax */
+@keyframes swing {
+    from {transform: rotate(20deg);}
+    to {transform: rotate(-20deg);}
+}
+
+.interior {
+	background-image: url('../../assets/images/interior2.jpg');
+	height: 400vh;
+	position: static;
+}
+
+.bgImage1 {
+	background-image: url('../../assets/images/bg4.jpg');
+	height: 100vh;
+}
+
+.bgImage2 {
+	background-image: url('../../assets/images/bg2.jpg');
+	height: 100vh;
+}
+
+.bgImage3 {
+	background-image: url('../../assets/images/bg3.jpg');
+	height: 100vh;
+}
+
+.bg {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content {
+	height:100px;
+}
+
+.p1 {
+	background-image: url('../../assets/images/p2.png');	
+	position: fixed;
+	z-index: 20;
+}
+
+.p2 {	
+	position: fixed;
+	z-index: 1;	
+}

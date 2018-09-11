@@ -1,0 +1,23 @@
+.myApps {
+	overflow: hidden;
+	position: relative;
+	top:0px;
+	height:100vh;
+}
+
+.myAppsleft {
+	float: left;
+	background-color: #333;
+  	z-index: 20;
+  	height:10vh;
+  	width: 100%;
+  	overflow: hidden;
+}
+
+.myAppsright {
+	float: right;
+	background-color: #333;
+  	z-index: 20;
+  	height:10vh;
+  	width: 100%;
+}
