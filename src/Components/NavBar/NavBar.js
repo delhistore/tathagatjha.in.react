@@ -31,9 +31,15 @@ class NavBar extends React.Component {
 		}
 	};
 
+	slideDownNavbar	 = () => {
+		if( this.props.scrollPixelsY > 700) {
+			return '0';
+		}
+	}
+
 	render() {
 		return(
-			<header className={this.state.mobileMenuToggle? "navbar responsive":"navbar"} id="nav_id">			
+			<header className={this.state.mobileMenuToggle? "navbar responsive":"navbar"} id="nav_id" style={{top: this.slideDownNavbar()}} >			
 
 				<div className="left">Logo</div>
 				

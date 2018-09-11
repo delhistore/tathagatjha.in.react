@@ -25,25 +25,6 @@
 	background-position: right;
 }
 
-.namePlate {
-	height:100px;
-	width:200px;
-	position: fixed;
-	top:20%;
-	left: -10%;
-}
-
-.visibleVideo {
-	height:6000px;
-}
-
-.video {
-    position: fixed;
-    right: 0;
-    bottom: -10px;
-    z-index: -1;
-}
-
 .img {
 	height:100px;
 	width:200px;
@@ -70,10 +51,46 @@
     to {transform: rotate(-20deg);}
 }
 
-.interior {
-	background-image: url('../../assets/images/interior2.jpg');
-	height: 400vh;
-	position: static;
+.namePlate {
+	height:100px;
+	width:200px;
+	position: fixed;
+	top:20%;
+	left: -10%;
+}
+
+.visibleVideo {
+	height:2000px;
+}
+
+.video {
+    position: fixed;
+    right: 0;
+    bottom: -10px;
+    z-index: -1;
+}
+
+.videoText1 {
+	color:white;
+	position: absolute;
+	top: -5%; right: 26.5%; bottom: 0; left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Tangerine', serif;
+	font-size: 40px;
+}
+
+.videoText2 {
+	color:white;
+	position: absolute;
+	top: 5%; right: 25%; bottom: 0; left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	font-family: 'Tangerine', serif;
+	font-size: 40px;
 }
 
 .bgImage1 {
