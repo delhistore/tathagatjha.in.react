@@ -52,7 +52,7 @@ class Home extends React.Component {
    		window.addEventListener('scroll', this.pauseAudio);
   	}; 
 
-	pauseAudio = () => {
+	/*pauseAudio = () => {
 		if( (this.props.scrollPixelsY < 100) || (this.props.scrollPixelsY > 2000) ) {
 			let audio = document.getElementById('livingRoomAudio');
 			audio.pause();
@@ -61,7 +61,7 @@ class Home extends React.Component {
 			let audio = document.getElementById('livingRoomAudio');
 			audio.play();
 		}
-	}
+	}*/
 
 	render() {
 		return(
@@ -94,18 +94,20 @@ class Home extends React.Component {
 				  		<source src={livingRoom} type="video/mp4" />
 						Your browser does not support the video tag. 
 					</video>
-					<audio autoPlay loop id='livingRoomAudio'>
+					{/*<audio autoPlay loop id='livingRoomAudio'>
   						<source src={livingRoomAudio} type="audio/ogg" />
-  					</audio>
+  					</audio>*/}
 				</div>
 
-				<div className="bg bgImage2">
-					
+				<div className="bg bgImage1">
+					<div className="content" style={{backgroundColor: '#333',lineHeight: '50px'}}>
+						Please Use Updated Chrome Browser on a Desktop
+					</div>
 				</div>				
-				<div className="content">
-					Content
+				<div className="content" style={{backgroundColor: '#333',lineHeight: '50px'}}>
+						Website currently Under Development
 				</div>
-				<div className="bg bgImage3">
+				<div className="bg bgImage2">
 					
 				</div>
 			</div>

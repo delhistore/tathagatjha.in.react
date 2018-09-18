@@ -94,17 +94,12 @@
 }
 
 .bgImage1 {
-	background-image: url('../../assets/images/bg4.jpg');
+	background-image: url('../../assets/images/bg1.jpg');
 	height: 100vh;
 }
 
 .bgImage2 {
-	background-image: url('../../assets/images/bg2.jpg');
-	height: 100vh;
-}
-
-.bgImage3 {
-	background-image: url('../../assets/images/bg3.jpg');
+	background-image: url('../../assets/images/bg8.jpg');
 	height: 100vh;
 }
 
@@ -117,7 +112,9 @@
 }
 
 .content {
-	height:100px;
+	height:50px;
+	color: white;
+	text-align: center;
 }
 
 .p1 {

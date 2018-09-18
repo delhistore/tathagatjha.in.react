@@ -28,32 +28,29 @@ class MyApps extends React.Component {
 			<div className="myApps">
 				<hr />
 				My Apps - {this.props.position.myApps} {this.props.scrollPixelsY} 
+				<div style={{position: 'realtive',top: '300px'}}>
+					
+				</div>
 				<div className='myAppsleft' style={{transform: this.slideInFromLeft()}} >
 					App1
 				</div>
 				<div >
-					some space
+					
 				</div>
 				<div className='myAppsright' style={{transform: this.slideInFromRight()}}>
 					App2
 				</div>
 				<div >
-					some space
+					
 				</div>
 				<div className='myAppsleft' style={{transform: this.slideInFromLeft()}}>
 					App3
 				</div>
 				<div >
-					some space
+					
 				</div>
 				<div className='myAppsright' style={{transform: this.slideInFromRight()}}>
 					App4
-				</div>
-				<div >
-					some space
-				</div>
-				<div className='myAppsleft' style={{transform: this.slideInFromLeft()}}>
-					App5
 				</div>
 			</div>
 		);
