@@ -12,8 +12,8 @@ import Footer from './Components/Footer/Footer.js';
 const pixelPosition = {
     home: 0,
     mySkills: 3264,
-    myApps: 8049,
-    contact: 4865
+    myApps: 3913,
+    contact: 4534
 }
 
 class App extends Component {

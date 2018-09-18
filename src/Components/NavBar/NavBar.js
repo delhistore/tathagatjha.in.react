@@ -49,9 +49,9 @@ class NavBar extends React.Component {
 				<div className={ `left ${this.isActive('mySkills')}`} 	onClick={() => this.props.routeChange('mySkills')} >
 					whatILoveToDo
 				</div>
-				{/*<div className={ `left ${this.isActive('myApps')}`} 	onClick={() => this.props.routeChange('myApps')} >
+				<div className={ `left ${this.isActive('myApps')}`} 	onClick={() => this.props.routeChange('myApps')} >
 					myApps
-				</div>*/}
+				</div>
 				<div className={ `left ${this.isActive('contact')}`} 	onClick={() => this.props.routeChange('contact')} >
 					contactMe
 				</div>

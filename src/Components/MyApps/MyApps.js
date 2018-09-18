@@ -6,8 +6,7 @@ class MyApps extends React.Component {
 	slideInFromLeft = () => {
 		
 		if(this.props.scrollPixelsY > 3081) {
-			console.log('inside');
-			let slideIn = this.props.scrollPixelsY - 4500;
+			let slideIn = this.props.scrollPixelsY - 4000;
 			return "translateX(" + slideIn + "px)";
 		}		
 	};
@@ -16,7 +15,7 @@ class MyApps extends React.Component {
 		
 		if(this.props.scrollPixelsY > 3081) {
 
-			let slideIn = 4500 - this.props.scrollPixelsY;
+			let slideIn = 4000 - this.props.scrollPixelsY;
 			return "translateX(" + slideIn + "px)";
 		}		
 	};
