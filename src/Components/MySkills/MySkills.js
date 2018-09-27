@@ -65,7 +65,7 @@ class MySkills extends React.Component {
 							<button type="button" class="btn btn-success" style={{ left:'70px', top: '70px', position: 'relative'}}>
 								<a 
 									style={{color: 'white'}}
-									href='https://drive.google.com/file/d/1XwT5w94hA8I8RvpAZXfazDqyyuWDI_42/view?usp=sharing'>
+									href='https://drive.google.com/file/d/1aV37RksQIPvTbUC6AciYXQHJHAtSzm12/view?usp=sharing'>
 									Resume
 								</a>
 							</button>
