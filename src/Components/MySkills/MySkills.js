@@ -62,7 +62,7 @@ class MySkills extends React.Component {
 								Currently open for opportunities. Here is a link to my resume.
 							</div>							
 
-							<button type="button" class="btn btn-success" style={{ left:'70px', top: '70px', position: 'relative'}}>
+							<button type="button" class="btn btn-success" style={{border: 'none', backgroundColor:'#f44141', left:'70px', top: '70px', position: 'relative'}}>
 								<a 
 									style={{color: 'white'}}
 									href='https://drive.google.com/file/d/1aV37RksQIPvTbUC6AciYXQHJHAtSzm12/view?usp=sharing'>
