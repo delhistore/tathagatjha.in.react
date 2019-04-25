@@ -85,10 +85,10 @@ class Home extends React.Component {
 				<div className="bg video" style={{display: this.exitHomeScreenElements()}}>
 
 					<div className="videoText1">
-						I LOVE YOU  
+						I Love You
 					</div>
 					<div className="videoText2">
-						PYARU
+						Pyaru
 					</div>
 					<video height="100%" width="100%" autoPlay muted loop >
 				  		<source src={livingRoom} type="video/mp4" />
