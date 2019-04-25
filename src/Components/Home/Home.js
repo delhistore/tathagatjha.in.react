@@ -101,7 +101,7 @@ class Home extends React.Component {
 
 				<div className="bg bgImage1">
 					<div className="content" style={{backgroundColor: '#333',lineHeight: '50px'}}>
-						I Love You Shivi !
+						Open on a chrome browser for best experience !
 					</div>
 				</div>				
 				<div className="content" style={{backgroundColor: '#333',lineHeight: '50px'}}>
